@@ -512,21 +512,20 @@
       </div>
     </footer>
     <!-- modal -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" data-modal-close class="modal-close">
           <svg class="close-icons" width="8" height="8">
             <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
-        <h3 class="modal-title">
-          Leave your contacts and we will call you back
-        </h3>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form form">
           <div class="form-group">
-            <label for="name" class="form-label">
-              <span> Name </span>
-              <div class="form-control">
+            <div class="form-control">
+              <label for="name" class="form-label">
+                <span class="name-input"> Name </span>
+
                 <input
                   type="text"
                   class="form-input"
@@ -538,14 +537,15 @@
                 <svg class="form-icon" width="12" height="12">
                   <use href="./images/symbol-defs.svg#icon-name"></use>
                 </svg>
-              </div>
-            </label>
+              </label>
+            </div>
           </div>
 
           <div class="form-group">
-            <label for="phone" class="form-label">
-              <span> Phone </span>
-              <div class="form-control">
+            <div class="form-control">
+              <label for="phone" class="form-label">
+                <span class="name-input"> Phone </span>
+
                 <input
                   type="text"
                   class="form-input"
@@ -557,13 +557,14 @@
                 <svg class="form-icon" width="12" height="12">
                   <use href="./images/symbol-defs.svg#icon-phone"></use>
                 </svg>
-              </div>
-            </label>
+              </label>
+            </div>
           </div>
           <div class="form-group">
-            <label for="email" class="form-label">
-              <span> Email </span>
-              <div class="form-control">
+            <div class="form-control">
+              <label for="email" class="form-label">
+                <span class="name-input"> Email </span>
+
                 <input
                   type="text"
                   class="form-input"
@@ -575,21 +576,22 @@
                 <svg class="form-icon" width="12" height="12">
                   <use href="./images/symbol-defs.svg#icon-email"></use>
                 </svg>
-              </div>
-            </label>
+              </label>
+            </div>
           </div>
           <div class="form-group">
-            <label for="comment" class="form-label">
-              <span> Comment </span>
-              <div class="form-controll">
+            <div class="form-controll">
+              <label for="comment" class="form-label">
+                <span class="name-input"> Comment </span>
+
                 <textarea
                   name="comment"
                   id="comment"
                   class="form-textarea"
                   placeholder="Text input"
                 ></textarea>
-              </div>
-            </label>
+              </label>
+            </div>
           </div>
           <div class="form-group-checkbox">
             <input
